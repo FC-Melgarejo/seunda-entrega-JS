@@ -74,34 +74,34 @@ while (barrera === true) {
       6. notebook HP`)
   );
   if (producto === 1) {
-    carrito.push(celular1.nombre);
-    total = total + celular1.precio;
+    carrito.push(producto1.nombre);
+    total = total + producto1.precio;
 
-    alerta(celular1, total, carrito);
+    alerta(producto1, total, carrito);
 
     seguirComprando = confirm("Queres seguir comprando?");
     keepShopping();
   } else if (producto === 2) {
-    carrito.push(celular2.nombre);
-    total = total + celular2.precio;
+    carrito.push(producto2.nombre);
+    total = total + producto2.precio;
 
-    alerta(celular2, total, carrito);
+    alerta(producto2, total, carrito);
 
     seguirComprando = confirm("Queres seguir comprando?");
     keepShopping();
   } else if (producto === 3) {
-    carrito.push(celular3.nombre);
-    total = total + celular3.precio;
+    carrito.push(producto3.nombre);
+    total = total + producto3.precio;
 
-    alerta(celular3, total, carrito);
+    alerta(producto3, total, carrito);
 
     seguirComprando = confirm("Queres seguir comprando?");
     keepShopping();
   } else if (producto === 4) {
-    carrito.push(celular4.nombre);
-    total = total + celular4.precio;
+    carrito.push(producto4.nombre);
+    total = total + producto4.precio;
 
-    alerta(celular4, total, carrito);
+    alerta(producto4, total, carrito);
 
     seguirComprando = confirm("Queres seguir comprando?");
     keepShopping();
